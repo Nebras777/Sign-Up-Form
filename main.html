@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="main">
+        <div class="image-container">
+            <div>O₂</div>
+            <a href="https://github.com/Nebras777" target="_blank" id="github-link"><img src="pfp.png" alt="Github" id="pfp"></a>
+        </div>
+        <div class="form-container">
+            <h1>Not a real online service. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu massa sed orci convallis tincidunt eu at tellus.</h1>
+            <form action="" method="" id="form">
+                <p class="sign-up">Sign Up:</p>
+                <fieldset>
+                    <div>
+                        <label for="first-name">First Name: *</label>
+                        <input type="text" id="first-name" placeholder="John" autocomplete="off" required>
+                    </div>
+                    <div>
+                        <label for="last-name">Last Name: *</label>
+                        <input type="text" id="last-name" placeholder="Doe" autocomplete="off" required>
+                    </div>
+                    <div>
+                        <label for="username">Username: *</label>
+                        <input type="text" id="username" placeholder="John_Doe777" autocomplete="off" required> 
+                    </div>
+                    <div>
+                        <label for="email">Email: *</label>
+                        <input type="email" id="email" placeholder="JohnDoe@gmail.com" autocomplete="off" required>
+                    </div>
+                    <div>
+                        <label for="password">Password: *</label>
+                        <input type="password" id="password" placeholder="Minimum 8 characters" autocomplete="off" minlength="8" required>
+                    </div>
+                    <div>
+                        <label for="confirm-password">Confirm Password: *</label>
+                        <input type="password" id="confirm-password" autocomplete="off" required>
+                    </div>
+                </fieldset>
+            </form>
+            <div class="final-third">
+                <button type="submit" form="form" class="invalid" id="button">Create Account</button>
+                <p class="log-in">Already have an account? <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Log In</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
